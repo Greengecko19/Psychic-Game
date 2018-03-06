@@ -1,0 +1,77 @@
+p {
+    font-size: 20pt;
+    font-weight: bold;
+    color: #333333;
+    font-style: italic;
+    text-align: center;
+}
+
+.container {
+    width: 600px;
+    margin-left: 30px;
+    border: 1px solid #a0a0a0;
+}
+
+h1 {
+    color: #001755;
+    font-family: fantasy;
+    text-align: center;
+    margin: 0px;
+}
+
+h2 {
+    color: #001755;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0px;
+}
+
+.heading {
+    background: #fcba84;
+}
+
+.subheading {
+    background: #d9bca5;
+    margin-top: 0px;
+}
+
+.results {
+    flex: 1;
+}
+
+.you {
+    float: left;
+    width: 50%;
+    color: white;
+    text-align: center;
+    background-color: #1b381b;
+}
+
+.computer {
+    float: right;
+    width: 50%;
+    color: white;
+    text-align: center;
+    background-color: #1c1b38;
+}
+
+#bottom {
+    display: flex;
+    width: 100%;
+}
+
+.wins {
+    flex: 1;
+    border: 1px solid #a0a0a0;
+}
+
+.ties {
+    flex: 1;
+    border: 1px solid #a0a0a0;
+}
+
+.losses {
+    flex: 1;
+    border: 1px solid #a0a0a0;
+}
+

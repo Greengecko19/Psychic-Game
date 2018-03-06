@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Psychic Game</title>
+
+  <!-- When I add in the reset css it messes up my format, so I disabled it -->
+  <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="heading">
+            <h1>The Psychic Game</h1>
+        </div>
+
+        <div class="subheading">
+            <h2>Find out how smart you are....</h2>
+        </div>
+        <p>Guess what letter the computer is thinking of!</p>
+        <p>You have 9 guesses.  Press Enter to restart</p>
+        
+        <div>
+            <div class="results">
+                <h2 class="computer">The computer chose:<p>
+                    <span style="color:white" id="comp-text">
+                    </span></p>
+                </h2>
+            </div>
+
+            <div class="results">
+                <h2 class="you">You chose:<p>
+                    <span style="color:white" id="user-text">
+                    </span></p>
+                </h2>
+            </div>
+        </div>
+        
+        <div class="guessesRemain">
+            <h2>Guesses Left:  <span id="guesses-Left"></span></h2>
+        </div>
+
+        <div id="bottom">
+            <div class="wins">
+                <h2>Wins:  <span id="wins-text"></span></h2>
+            </div>
+            <div class="losses">
+                <h2>Losses:  <span id="losses-text"></span></h2>
+            </div>
+        </div>
+        
+    </div>
+    
+</body>
+
+</html>
