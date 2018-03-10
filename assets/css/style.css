@@ -60,17 +60,7 @@ h2 {
     width: 100%;
 }
 
-.wins {
-    flex: 1;
-    border: 1px solid #a0a0a0;
-}
-
-.ties {
-    flex: 1;
-    border: 1px solid #a0a0a0;
-}
-
-.losses {
+.guesses-Left {
     flex: 1;
     border: 1px solid #a0a0a0;
 }
