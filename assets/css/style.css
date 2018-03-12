@@ -23,6 +23,7 @@ h2 {
     color: #001755;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    vertical-align: middle;
     margin: 0px;
 }
 
@@ -35,33 +36,39 @@ h2 {
     margin-top: 0px;
 }
 
+.guesses-Left {
+    flex: 1;
+    border: 1px solid #a0a0a0;
+}
+
 .results {
     flex: 1;
+    vertical-align: middle;
 }
 
 .you {
     float: left;
     width: 50%;
+    height: 130px;
     color: white;
     text-align: center;
+    vertical-align: middle;
     background-color: #1b381b;
 }
 
 .computer {
     float: right;
     width: 50%;
+    height: 130px;
     color: white;
     text-align: center;
+    vertical-align: middle;
     background-color: #1c1b38;
 }
 
-#bottom {
+/* #bottom {
     display: flex;
     width: 100%;
-}
+} */
 
-.guesses-Left {
-    flex: 1;
-    border: 1px solid #a0a0a0;
-}
 
